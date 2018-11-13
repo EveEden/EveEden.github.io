@@ -1,5 +1,31 @@
+
+.font1 {
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        background: skyblue
 }
 
-.red-background {
-  background-color:  red;
+.font3 {
+        font-size: 20px; 
+        text-align: right;
+        font-family: 'Montserrat', sans-serif;
+        background: palegreen;
+        margin: 2px;
 }
+
+
+.text { 
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        background: orange;
+        float: right;
+        width: 700px;
+}
+      
+.collumn {
+        padding: 20px;
+        margin: 50px;
+}
+  
