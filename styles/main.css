@@ -39,4 +39,9 @@
         padding: 20px;
         margin: 50px;
 }
-  
+
+.pic { 
+        border-radius: 50%; 
+       margin-left: 100px; 
+ margin-top: 20px;
+}  
