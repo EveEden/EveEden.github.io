@@ -50,11 +50,10 @@
         margin: 50px;
 }
 
-.itext {
+.btext {
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
         text-align: justify;
-        width: 800px;
 }
 
 li {
