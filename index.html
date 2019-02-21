@@ -40,8 +40,28 @@
     <p>Delve into a journey of self discovery in my Cultural Blog updates</p>
     <p>Be a good mum and girlfriend whilst transforming my life</p>
   </div>
-    <img src="images/muri.JPG" alt="Girl on Palm tree in Rarotonga" class="pic">
+    <img class="mySlides" src="images/whomadethisbeautifulchild.JPG" style="width:100%">
+    <img class="mySlides" src="images/woochild.JPG" style="width:100%">
+    <img class="mySlides" src="images/lulu_pou.JPG" style="width:100%">
+    <img class="mySlides" src="images/muri.JPG" style="width:100%">
     <!-- Images are case sensitive, changed jpg to JPG -->
+
+    <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
 
   </body>
 </html>

@@ -91,5 +91,11 @@ ul {
 
 li a:hover {
         background-color:lightgrey;
-      }
+}
+
+.mySlides {
+        display:none;
+        width: 100%;
+}
+     
 
