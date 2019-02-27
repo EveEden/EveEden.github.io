@@ -3,18 +3,12 @@
         padding: 0px 50px 100px 50px;
 }
 
-.pic { 
-        border-radius: 50%; 
-        float: right;
-}
-
 .font1 {
         font-size: 100px;
         text-align: center;
         font-family: 'Amatic SC', cursive;
         margin: 30px;
 }
-
 
 .font3 {
         font-size: 20px; 
@@ -36,21 +30,7 @@
         font-family: 'Montserrat', sans-serif;
         margin: 2px;
 }
-
-
-.text { 
-        font-size: 30px;
-        font-family: 'Montserrat', sans-serif;
-        text-align: justify;
-        float: right;
-        width: 700px;
-}
-      
-.collumn {
-        padding: 20px;
-        margin: 50px;
-}
-
+     
 .btext {
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
