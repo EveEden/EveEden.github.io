@@ -8,7 +8,7 @@
     "react-mdl": "^1.11.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "homepage": "https://eveeden.github.io",
+    "homepage": "https://eveeden.github.io"
   },
   "scripts": {
     "start": "react-scripts start",
